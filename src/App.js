@@ -43,7 +43,7 @@ import PowerOfSeo from "./components/articles/2024/september/unlock-the-power-of
 
 function App() {
   return (
-      <Router basename="/gwd/">
+      <Router basename="/">
           <ScrollToTop />
           <div className="App">
               <Navbar />
