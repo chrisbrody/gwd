@@ -1,6 +1,5 @@
 import React from 'react';
 import './AboutUs.css';
-import profileImage from '../../assets/images/hero.png';
 import FadeInOnScroll from '../FadeInOnScroll'; // Import the reusable component
 
 function AboutUs() {
@@ -17,9 +16,6 @@ function AboutUs() {
                         to deliver innovative, results-driven solutions tailored to your
                         unique business needs.
                     </p>
-                </div>
-                <div className="about-us-image">
-                    <img src={profileImage} alt="Your Name" />
                 </div>
             </div>
         </FadeInOnScroll>
