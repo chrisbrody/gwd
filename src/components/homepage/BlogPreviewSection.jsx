@@ -6,19 +6,19 @@ function BlogPreviewSection() {
     const blogPosts = [
         {
             id: 1,
-            title: 'The Future of Web Development: AI-Powered Design',
-            excerpt:
-                'Explore how artificial intelligence is revolutionizing web design, from automated layouts to personalized user experiences. Discover the tools and techniques shaping the future of web development.',
-            imageUrl: 'https://placehold.co/600x400/3498db/ffffff?text=AI+Design', // Placeholder image URL
-            link: '/articles/2025/february/',
-        },
-        {
-            id: 2,
             title: '5 Ways AI Can Improve Your Customer Service',
             excerpt:
                 'Learn how to leverage AI to enhance your customer service, from AI-powered chatbots to personalized support experiences. Boost customer satisfaction and streamline your support operations.',
             imageUrl: 'https://placehold.co/600x400/2ecc71/ffffff?text=AI+Customer+Service', // Placeholder image URL
-            link: '/blog/ai-customer-service', // Replace with the actual link to your blog post
+            link: 'gwd/articles/2025/february/5-ways-ai-can-improve-your-customer-service',
+        },
+        {
+            id: 2,
+            title: 'Building a Secure E-Commerce Website with Shopify',
+            excerpt:
+                'Protect your customers and your business by following our security best practices for building e-commerce websites with Shopify. Learn how to prevent fraud, secure payments, and protect sensitive data.',
+            imageUrl: 'https://placehold.co/600x400/2ecc71/ffffff?text=AI+Customer+Service', // Placeholder image URL
+            link: 'gwd/articles/2025/january/building-a-fortress-security-best-practices-for-your-shopify-e-commerce-website', // Replace with the actual link to your blog post
         },
     ];
 
